@@ -16,6 +16,6 @@ const form = document.querySelector('.lorem-form')
 const amount = document.getElementById('amount')
 const result = document.querySelector('.lorem-text')
 
-form.addEventListener('submit', function() {
-  
+form.addEventListener('submit', function(e) {
+  e.preventDefault()
 })
