@@ -28,7 +28,8 @@ form.addEventListener('submit', function(e) {
     result.innerHTML = `<p class="result">${text[random]}</p>`
   }
   else {
-    let tempText = text.slice(0,  value)
+    let tempText = text.slice(0, value)
+    
   }
 
 })
