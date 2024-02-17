@@ -29,7 +29,9 @@ form.addEventListener('submit', function(e) {
   } 
   else {
     let tempText = text.slice(0, value) 
-  
+    tempText = tempText.map(function(item) {
+      
+    })
   }
 
 }) 
