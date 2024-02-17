@@ -19,4 +19,9 @@ const result = document.querySelector('.lorem-text')
 form.addEventListener('submit', function(e) {
   e.preventDefault()
   const value = parseInt(amount.value)
+
+  // empty
+  // -1 
+  // > 9
+  
 })
