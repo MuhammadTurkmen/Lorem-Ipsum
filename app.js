@@ -18,4 +18,5 @@ const result = document.querySelector('.lorem-text')
 
 form.addEventListener('submit', function(e) {
   e.preventDefault()
+  const value = amount.value
 })
