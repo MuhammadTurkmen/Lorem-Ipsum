@@ -23,5 +23,5 @@ form.addEventListener('submit', function(e) {
   // empty
   // -1 
   // > 9
-  
+  if(isNaN(value) || value < 0 || value > 9)
 })
