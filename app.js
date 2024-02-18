@@ -32,6 +32,7 @@ form.addEventListener('submit', function(e) {
     tempText = tempText.map(function(item) { 
       return `<p class="result">${item}</p>`
     }).join("")
+    result.innerHTML = tempText
   }
 
 }) 
